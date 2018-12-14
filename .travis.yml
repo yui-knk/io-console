@@ -3,6 +3,6 @@ language: ruby
 rvm:
   - ruby-head
 before_install:
+  - rm -rf /home/travis/.rvm/rubies/ruby-head/lib/ruby/site_ruby/2.6.0/
   - gem install bundler -v 1.15.1
-  - gem update --no-prerelease --system 3.0.0.beta3
   - gem --version
