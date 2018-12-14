@@ -4,5 +4,5 @@ rvm:
   - ruby-head
 before_install:
   - gem install bundler -v 1.15.1
-  - gem update --system 3.0.0.beta3
+  - gem update --no-prerelease --system 3.0.0.beta3
   - gem --version
